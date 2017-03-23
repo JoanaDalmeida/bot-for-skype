@@ -5,7 +5,7 @@ var _ = require('lodash');
 var jokesFilePath = Path.resolve(".", "jokes.json");
 
 
-var users = require(jokesFilePath).jokes;
+var jokes = require(jokesFilePath).jokes;
 
 module.exports = {
     getJoke: getJoke

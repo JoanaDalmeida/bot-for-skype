@@ -40,10 +40,10 @@ var handleUserRequest = function(serviceToCall, session) {
       var userCards = [];
       if(result && result.length > 0) {
         result.map(function(user) {
-          var imageUrl = ngrockFackeUrl+"images/" + userInfosServices.getUserImage(user);
+          var imageUrl = "http://localhost:3000/images/" + userInfosServices.getUserImage(user);
           userCards.push(new builder.HeroCard(session)
                        .title(user.name)
-                       .text(user.jobTitle +  ", " +  user.department +  ",  " + user.city)
+                       .text(user.description +  ", " + user.city)
                        .images([
                            builder.CardImage.create(session, imageUrl)
                                .tap(builder.CardAction.showImage(session, imageUrl)),
@@ -68,7 +68,7 @@ var handleUserRequest = function(serviceToCall, session) {
 	     return "ça va, merci!";
 	  }
 	  case "who_are_you": {
-	    return "Je suis JD, le bot VSC qui te simplifie la vie!";
+	    return "Je suis JD, le bot qui te simplifie la vie!";
 	  }
 	  case "not_good": {
 	    return "Désolé, je fais de mon mieux... :(";
