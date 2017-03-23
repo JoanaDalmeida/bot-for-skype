@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "name": "D'ALMEIDA Joana",
+      "firstName": "Joana",
+      "lastName": "D'ALMEIDA",
+      "emailAddress": "test@mail.com",
+      "city": "Paris",
+      "description": "Dev FullStack"
+    }
+  ]
+}

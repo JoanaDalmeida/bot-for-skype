@@ -1,0 +1,65 @@
+{
+  "jokes":  [ {
+    "question": "Quelle est la femelle du hamster ?",
+    "answer": "L'Amsterdam"
+  }, {
+    "question": "Que dit un oignon quand il se cogne ?",
+    "answer": "Aïe"
+    }, {
+    "question": "Quel est l'animal le plus heureux ?",
+    "answer": "Le hibou, parce que sa femme est chouette !"
+    }, {
+      "question": "Quel est le fruit préféré de l'homme ?",
+      "answer": "L'ananas ;-)"
+    }, {
+    "question": "Pourquoi le football c'est rigolo ?",
+    "answer": "Parce que Thierry en rit ^.^"
+  }, {
+    "question": "Quel est le sport le plus fruité ?",
+    "answer": "La boxe, parce que tu te prends des pêches dans la poire et tu tombes dans les pommes"
+  }, {
+    "question": "Que se fait un Schtroumpf quand il tombe ?",
+    "answer": "Un bleu"
+  }, {
+    "question": "Quel est le comble pour un marin ?",
+    "answer": "Avoir le nez qui coule !"
+  }, {
+    "question": "Qu'est-ce que les enfants usent le plus à l'école ?",
+    "answer": "Le professeur !"
+  }, {
+    "question": "Quel métier les chiens peuvent-ils exercer ?",
+    "answer": "Electrichien !"
+  }, {
+    "question": "Quel est le point commun entre un pêcheur et un mannequin ?",
+    "answer": "Ils surveillent leur ligne..."
+  }, {
+    "question": "Quel est le sport le plus silencieux ?",
+    "answer": "Le para-chuuuuuuuuuuuut"
+  }, {
+    "question": "Quel est le comble pour un joueur de bowling ?",
+    "answer": "C'est de perdre la boule"
+  }, {
+    "question": "Pourquoi ne faut-il jamais raconter d'histoires drôles à un ballon ?",
+    "answer": "Parce qu'il pourrait éclater de rire :-O"
+  }, {
+    "question": "Que chante le plombier ?",
+    "answer": "Un syphon font font les petites clés à molette !"
+  }, {
+    "question": "Quels sont les animaux qui sont souvent fatigués ?",
+    "answer": "Le dodo et le paresseux"
+  }, {
+    "question": "Quel est l'animal le plus à la mode ?",
+    "answer": "Le taupe modèle B-)"
+  }, {
+    "question": "Que fait une vache avec une radio ?",
+    "answer": "De la meuhsique !"
+  },
+    {
+      "question": "Qu'est-ce qu'une carotte au milieu d'une flaque d'eau ?",
+      "answer": "Un bonhomme de neige... Au printemps !"
+    }, {
+      "question": "De quelle couleur sont les parapluies quand il pleut ?",
+      "answer": "Ils sont tout verts ! :-D"
+    }
+  ]
+}
