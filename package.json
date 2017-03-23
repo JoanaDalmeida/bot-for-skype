@@ -1,5 +1,5 @@
 {
-  "name": "v3po",
+  "name": "botJD",
   "version": "1.0.0",
   "description": "Bot for Skype",
   "main": "app.js",
@@ -8,13 +8,12 @@
   },
   "keywords": [
     "bot",
-    "express"
+    "express",
+    "node"
   ],
   "repository": {
-    "type": "git",
-    "url": "git@gitlab.socrate.vsct.fr:inno/V3PO.git"
   },
-  "author": "VSCT - INNO",
+  "author": "Joana D'ALMEIDA",
   "license": "ISC",
   "dependencies": {
     "botbuilder": "^3.7.0",
