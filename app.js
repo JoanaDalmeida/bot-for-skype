@@ -72,7 +72,7 @@ var handleUserRequest = function(serviceToCall, values, session) {
 	     return "ça va, merci!";
 	  }
 	  case "who_are_you": {
-	    return "Je suis JD, le bot VSC qui te simplifie la vie!";<
+	    return "Je suis JD, le bot VSC qui te simplifie la vie!";
 	  }
 	  case "not_good": {
 	    return "Désolé, je fais de mon mieux... :(";
