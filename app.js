@@ -3,11 +3,10 @@ var builder = require('botbuilder');
 var request = require('request');
 var Path = require('path');
 
-var nlpUrl = "https://www.botinno.tech/nlp/parse";
-
 //USer Service
 var userInfosServices = require('./back/services/userInfos');
-var jokeServices = require('./back/services/jokeServices');
+var jokeServices = require('./back/services/jokeService');
+var parsingServices = require('./back/services/parsingService');
 var MapCard = require('botbuilder-location/lib/map-card');
 
 //=========================================================
@@ -33,14 +32,11 @@ server.post('/api/messages', connector.listen());
 // Bots Dialogs
 //=========================================================
 
-var handleUserRequest = function(serviceToCall, values, session) {
+var handleUserRequest = function(serviceToCall, session) {
   var defaultAnswer = "Je crains de ne pas avoir compris... :'(";
-  var searchTerms = values.map(function(value) {
-    return value.content;
-  });
   switch(serviceToCall) {
     case "where_works" : {
-      var result = userInfosServices.findUsers("joana");
+      var result = userInfosServices.findUser("joana");
       var userCards = [];
       if(result && result.length > 0) {
         result.map(function(user) {
@@ -90,6 +86,5 @@ bot.dialog('/', function (session) {
     searchTerm = session.message.text;
   }
   //TODO Use nlp
-
-  session.send(handleUserRequest(body.intent, values, session));
+  session.send(handleUserRequest(parsingServices.parseQuery(searchTerm), session));
 });
